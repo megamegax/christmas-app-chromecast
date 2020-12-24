@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.christmas_app_chromecast">
-   <application
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
         android:label="christmas_app_chromecast"
         android:icon="@mipmap/ic_launcher">
         <activity
