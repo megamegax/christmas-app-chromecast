@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Christmas App Chromecast</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -41,5 +43,18 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+    <key>io.flutter.embedded_views_preview</key>
+    <string>YES</string>
+	<key>NSBonjourServices</key>
+<array>
+  <string>_googlecast._tcp</string>
+  <string>_CC1AD845._googlecast._tcp</string>
+</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>App uses the local network to discover Cast-enabled devices on your WiFi network.</string>
 </dict>
 </plist>
