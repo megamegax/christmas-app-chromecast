@@ -40,7 +40,7 @@ class _CastSampleState extends State<CastSample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Plugin example app'),
+        title: Text('Christmas Appc'),
         actions: <Widget>[
           ChromeCastButton(
             size: CastSample._iconSize,
