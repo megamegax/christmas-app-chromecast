@@ -6,13 +6,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.0.11
-  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.5.4
+  cupertino_icons: ^1.0.8
   cast: ^2.1.0
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  bonsoir: 5.1.0
 
 flutter:
   uses-material-design: true
